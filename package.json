@@ -1,0 +1,22 @@
+{
+  "name": "bot-upar",
+  "version": "2.0.0",
+  "description": "Bot de Promoção e Rebaixamento",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node build/index.js"
+  },
+  "imports": {
+    "#base": "./build/discord/base/index.js",
+    "#functions": "./build/functions/index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "@magicyan/discord": "^1.5.1",
+    "dotenv": "^16.6.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+}
